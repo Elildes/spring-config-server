@@ -1,0 +1,15 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: config-server
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: file:///C:/Users/elildes/Documents/Git/git-config-server
+    loadbalancer:
+      ribbon:
+        enabled: false
